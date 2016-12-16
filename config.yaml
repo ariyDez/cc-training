@@ -15,4 +15,4 @@ variables:
         required: false
         description: fake var
         type: string
-        default: "default"
+        default:
