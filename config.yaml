@@ -10,4 +10,8 @@
 	##   internet_gateway true
 	## end
 	##
-	
+	variables:
+    VPC_NAME:
+        required: true
+        description: the name of the VPC
+        default: nursultan-vpc
