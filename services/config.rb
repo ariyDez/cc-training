@@ -14,6 +14,7 @@
     	action :define
     	service :elb
     	objects ["load_balancers"]
+    	level "Informational"
     	audit_objects ["load_balancer_description.health_check.interval"]
     	operators [">"]
     	alert_when [120]
