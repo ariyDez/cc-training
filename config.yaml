@@ -10,8 +10,9 @@
 	##   internet_gateway true
 	## end
 	##
-	variables:
-    VPC_NAME:
-        required: true
-        description: the name of the VPC
-        default: nursultan-vpc
+variables:
+    NEW_PARAM4:
+        required: false
+        description: fake var
+        type: string
+        default:
