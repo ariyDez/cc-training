@@ -3,4 +3,4 @@ variables:
     description: "test"
     required: false
     type: string
-    default:
+    default: "test"
